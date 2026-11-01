@@ -15,7 +15,7 @@ import { User } from './user/entities/user.entity';
       username: 'admin',
       entities: [User],
       database: 'dblearn',
-      synchronize: true,
+      synchronize: false,
       logging: true
     }),
     UserModule
