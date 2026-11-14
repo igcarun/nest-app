@@ -15,7 +15,7 @@ import { User } from './user/entities/user.entity';
       username: 'postgres',
       entities: [User],
       database: 'dblearn',
-      synchronize: false,
+      synchronize: true,
       logging: true
     }),
     UserModule
