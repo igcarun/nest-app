@@ -12,7 +12,7 @@ import { User } from './user/entities/user.entity';
       host: 'localhost',
       port: 5432,
       password: 'admin',
-      username: 'admin',
+      username: 'postgres',
       entities: [User],
       database: 'dblearn',
       synchronize: false,
